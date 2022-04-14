@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 62.5%;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  /* border: 2px solid red; */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url("./raining.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+form div {
+  display: flex;
+  align-items: center;
+}
+input {
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  border: none;
+  margin-left: 10px;
+}
+button {
+  border: none;
+  align-self: stretch;
+  background: green;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: greenyellow;
+  color: black;
+}
+div.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.info-weather {
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  width: 300px;
+  height: 300px;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.temp {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
